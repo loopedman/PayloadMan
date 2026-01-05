@@ -27,7 +27,7 @@ and international laws.
 
 ## What PayloadMan is (and is not)
 
-### ✔ What it IS
+### What it IS
 - A graphical frontend for `msfvenom`
 - An educational tool for learning payload generation
 - A helper for understanding platforms, formats, and architectures
