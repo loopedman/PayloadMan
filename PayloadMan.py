@@ -174,7 +174,7 @@ class Translator:
             
             # About section
             'about_title': 'Acerca de PayloadMan',
-            'about_content': 'PAYLOADMAN v1.0 - GENERADOR AVANZADO DE PAYLOADS\n\n'
+            'about_content': 'PAYLOADMAN v1.0\n\n'
                            'Herramienta educativa para la generación y gestión de payloads de Metasploit.\n\n'
                            'INFORMACIÓN DEL AUTOR:\n'
                            '• Author: loopedman\n'
@@ -207,7 +207,7 @@ class Translator:
     def get_english_texts(self):
         return {
             # Main titles
-            'app_title': 'PayloadMan - Advanced Payload Generator v1.0',
+            'app_title': 'PayloadMan v1.0',
             'subtitle': 'Educational Tool for Authorized Security Testing',
             'footer_disclaimer': 'PayloadMan - For educational and authorized testing purposes only',
             
@@ -2289,7 +2289,7 @@ run -j
     def clear_output(self):
         self.output.delete("1.0", tk.END)
         self.generation_status.config(text="")
-        self.update_status("Salida limpia" if self.translator.language == 'es' else "Output cleared")
+        self.update_status("Salida limpiada" if self.translator.language == 'es' else "Output cleared")
 
     def show_handler_content(self):
         if not self.payload_var.get() or not self.ip_var.get():
