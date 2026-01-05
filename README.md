@@ -88,6 +88,20 @@ Run the application:
 python PayloadMan.py
 ```
 
+---
+
+## Screenshots
+
+### Main Window
+![Main Window](screenshots/main_window.png)
+
+### Payload Options
+![Payload Options](screenshots/payload_options.png)
+
+### Generated Payload
+![Generated Payload](screenshots/generated_payload.png)
+
+
 ## Notes on Usage
 PayloadMan does not guarantee payload/encoder compatibility.
 Some combinations may fail depending on msfvenom limitations.
